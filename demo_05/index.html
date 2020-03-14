@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>demo_04_Vue实例</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+  <div id="app5">
+    <a v-bind:[myhref]="url">返回目录</a>
+    <button v-on:[myclick]="changeIsTrue" v-if="isTrue">按钮消失</button>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
